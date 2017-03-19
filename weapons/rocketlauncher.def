@@ -75,9 +75,9 @@ entityDef weapon_rocketlauncher
 	"inv_icon"					"gfx/guis/hud/icons/item_rocket.tga"
 	"inv_name"					"#str_107409"	
 
-	"fireRate"					".8"
-	"reloadRate"				".8"
-	"spread"					"0"
+	"fireRate"					".05"
+	"reloadRate"				".05"
+	"spread"					"25"
 
 	"ammoRegenStep"				"1"
 	"ammoRegenTime"				"1750"
@@ -100,7 +100,7 @@ entityDef weapon_rocketlauncher
 	
 	"mtr_flashShader"			"lights/muzzleflash"
 	"flashColor"				"0.99 0.84 .31"
-	"flashRadius"				"200"
+	"flashRadius"				"2000"
 	"flashPointLight"			"1"
 	"flashTime"					".1"
 	"flashViewOffset"			"15 -5 -5"
@@ -125,7 +125,7 @@ entityDef weapon_rocketlauncher
 	"weaponOffsetTime"			"600"
 	"weaponOffsetScale"			"0.002"
 
-//	"launchFromBarrel"			"1"
+//	"launchFromBarrel"			"5"
 
 	"def_mod1"					"wpmod_rocketlauncher_burst"
 	"def_mod2"					"wpmod_rocketlauncher_homing"
